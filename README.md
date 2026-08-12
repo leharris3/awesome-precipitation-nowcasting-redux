@@ -1,11 +1,17 @@
-Awesome Precipitation Nowcasting (Redux Edition)
+Awesome Precipitation Nowcasting (Redux)
 ==
+
+<p align="center">
+  <img src="assets/IMERG_GrandAvg_2024_Colorbar.png" alt="Global map of average annual precipitation from GPM IMERG, in mm/year" width="100%">
+</p>
+
+* Image credit: NASA Goddard Space Flight Center/[GPM IMERG](https://gpm.nasa.gov/data/imerg).
 
 ### TOC
 * [:paperclip: Papers](https://github.com/tyui592/awesome-precipitation-nowcasting#paperclip-paperscodes)
-* [:pushpin: Workshop](https://github.com/tyui592/awesome-precipitation-nowcasting#pushpin-workshop)
-* [:computer: Libraries](https://github.com/tyui592/awesome-precipitation-nowcasting#computer-library)
 * [:minidisc: Datasets](https://github.com/tyui592/awesome-precipitation-nowcasting#minidisc-dataset)
+* [:pushpin: Workshops](https://github.com/tyui592/awesome-precipitation-nowcasting#pushpin-workshop)
+* [:computer: Libraries](https://github.com/tyui592/awesome-precipitation-nowcasting#computer-library)
 <!-- * [:earth_asia: Others](https://github.com/tyui592/awesome-precipitation-nowcasting#earth_asia-Others) -->
 <!-- *If I missed any of your work, or if something here needs an update, please email me or just open a pull request. Thank you!* -->
 
@@ -646,30 +652,6 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-:pushpin: Workshop
-==
-
-##### (2022) Tackling Climate Change with Machine Learning
-* Venue: *NeurIPS*
-* Link: https://www.climatechange.ai/events/neurips2022
-
-##### (2023) Tackling Climate Change with Machine Learning: Blending New and Existing Knowledge Systems
-* Venue: *NeurIPS*
-* Link: https://neurips.cc/virtual/2023/workshop/66543
-
-##### (2023) Weather4cast
-* Venue: *NeurIPS competition*
-* Link: https://weather4cast.net/
-
-##### (2024) Weather4cast
-* Venue: *NeurIPS competition*
-* Link: https://weather4cast.net/neurips2024/
-
-##### (2025) Weather4cast
-* Venue: *NeurIPS competition*
-* Intro: Multi-task challenges for weather & pollution pattern prediction on the road to hi-res foundation models: super-resolution rain movies, cumulative rainfall, severe weather events, and (new for 2025) atmospheric pollution forecasting.
-* Link: https://weather4cast.net/neurips2025/, https://neurips.cc/virtual/2025/competition/127725
-
 :minidisc: Datasets
 ==
 
@@ -737,6 +719,30 @@ Awesome Precipitation Nowcasting (Redux Edition)
 ```
 
 </details>
+
+:pushpin: Workshops
+==
+
+##### (2022) Tackling Climate Change with Machine Learning
+* Venue: *NeurIPS*
+* Link: https://www.climatechange.ai/events/neurips2022
+
+##### (2023) Tackling Climate Change with Machine Learning: Blending New and Existing Knowledge Systems
+* Venue: *NeurIPS*
+* Link: https://neurips.cc/virtual/2023/workshop/66543
+
+##### (2023) Weather4cast
+* Venue: *NeurIPS competition*
+* Link: https://weather4cast.net/
+
+##### (2024) Weather4cast
+* Venue: *NeurIPS competition*
+* Link: https://weather4cast.net/neurips2024/
+
+##### (2025) Weather4cast
+* Venue: *NeurIPS competition*
+* Intro: Multi-task challenges for weather & pollution pattern prediction on the road to hi-res foundation models: super-resolution rain movies, cumulative rainfall, severe weather events, and (new for 2025) atmospheric pollution forecasting.
+* Link: https://weather4cast.net/neurips2025/, https://neurips.cc/virtual/2025/competition/127725
 
 :book: Libraries
 ==
