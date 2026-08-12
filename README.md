@@ -1,150 +1,25 @@
 Awesome Precipitation Nowcasting (Redux Edition)
 ==
 
-### Content
-* [:paperclip: Papers&Codes](https://github.com/tyui592/awesome-precipitation-nowcasting#paperclip-paperscodes)
+### TOC
+* [:paperclip: Papers](https://github.com/tyui592/awesome-precipitation-nowcasting#paperclip-paperscodes)
 * [:pushpin: Workshop](https://github.com/tyui592/awesome-precipitation-nowcasting#pushpin-workshop)
 * [:computer: Libraries](https://github.com/tyui592/awesome-precipitation-nowcasting#computer-library)
 * [:minidisc: Datasets](https://github.com/tyui592/awesome-precipitation-nowcasting#minidisc-dataset)
 <!-- * [:earth_asia: Others](https://github.com/tyui592/awesome-precipitation-nowcasting#earth_asia-Others) -->
+<!-- *If I missed any of your work, or if something here needs an update, please email me or just open a pull request. Thank you!* -->
 
-*If I missed any of your work, or if something here needs an update, please email me or just open a pull request. Thank you!*
-
-:paperclip: Papers&Codes
+:paperclip: Papers
 ==
 
-## ConvLSTM
-**Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting**
-<details><summary>bibtex</summary>
+## Machine learning era (~2015-present)
 
-```bibtex
-@inproceedings{shi2015convlstm,
-  author = {Xingjian Shi and Zhourong Chen and Hao Wang and Dit{-}Yan Yeung and Wai{-}Kin Wong and Wang{-}chun Woo},
-  title = {Convolutional {LSTM} Network: {A} Machine Learning Approach for Precipitation Nowcasting},
-  booktitle = {Advances in Neural Information Processing Systems 28: Annual Conference on Neural Information Processing Systems 2015, December 7-12, 2015, Montreal, Quebec, Canada},
-  pages = {802--810},
-  year = {2015},
-  url = {https://proceedings.neurips.cc/paper/2015/hash/07563a3fe3bbe7e3ba84431ad9d055af-Abstract.html}
-}
-```
+### Google/DeepMind <img src="https://www.google.com/s2/favicons?domain=google.com&sz=64" height="40" align="center" alt="Google logo">
+---
 
-</details>
-
-## MLP-based Method
-**Rainfall Prediction: A Deep Learning Approach**
-<details><summary>bibtex</summary>
-
-```bibtex
-@inbook{hernandez2016rainfall,
-  author = {Hernández, Emilcy and Sanchez-Anguix, Victor and Julian, Vicente and Palanca, Javier and Duque, Néstor},
-  title = {Rainfall Prediction: A Deep Learning Approach},
-  booktitle = {Hybrid Artificial Intelligent Systems},
-  publisher = {Springer International Publishing},
-  pages = {151--162},
-  year = {2016},
-  doi = {10.1007/978-3-319-32034-2_13}
-}
-```
-
-</details>
-
-## TrajGRU
-**Deep Learning for Precipitation Nowcasting: A Benchmark and A New Model**
-* github: https://github.com/sxjscience/HKO-7
-<details><summary>bibtex</summary>
-
-```bibtex
-@inproceedings{shi2017trajgru,
-  author = {Xingjian Shi and Zhihan Gao and Leonard Lausen and Hao Wang and Dit{-}Yan Yeung and Wai{-}Kin Wong and Wang{-}chun Woo},
-  title = {Deep Learning for Precipitation Nowcasting: {A} Benchmark and {A} New Model},
-  booktitle = {Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2017, December 4-9, 2017, Long Beach, CA, {USA}},
-  pages = {5617--5627},
-  year = {2017},
-  url = {https://proceedings.neurips.cc/paper/2017/hash/a6db4ed04f1621a119799fd3d7545d3d-Abstract.html}
-}
-```
-
-</details>
-
-## CNN-based Method
-**A short-term rainfall prediction model using multi-task convolutional neural networks**
-<details><summary>bibtex</summary>
-
-```bibtex
-@inproceedings{qiu2017shortterm,
-  author = {Minghui Qiu and Peilin Zhao and Ke Zhang and Jun Huang and Xing Shi and Xiaoguang Wang and Wei Chu},
-  title = {A Short-Term Rainfall Prediction Model Using Multi-task Convolutional Neural Networks},
-  booktitle = {2017 {IEEE} International Conference on Data Mining, {ICDM} 2017, New Orleans, LA, USA, November 18-21, 2017},
-  pages = {395--404},
-  publisher = {{IEEE} Computer Society},
-  year = {2017},
-  doi = {10.1109/ICDM.2017.49}
-}
-```
-
-</details>
-
-## DozhdyaNet
-**All convolutional neural networks for radar-based precipitation nowcasting**
-<details><summary>bibtex</summary>
-
-```bibtex
-@article{ayzel2019dozhdyanet,
-  author = {Ayzel, G. and Heistermann, M. and Sorokin, A. and Nikitin, O. and Lukyanova, O.},
-  title = {All convolutional neural networks for radar-based precipitation nowcasting},
-  journal = {Procedia Computer Science},
-  volume = {150},
-  pages = {186--192},
-  year = {2019},
-  doi = {10.1016/j.procs.2019.02.036}
-}
-```
-
-</details>
-
-## rainymotion
-**Optical flow models as an open benchmark for radar-based precipitation nowcasting (rainymotion v0.1)**
-* github: https://github.com/hydrogo/rainymotion
-<details><summary>bibtex</summary>
-
-```bibtex
-@article{ayzel2019rainymotion,
-  author = {Ayzel, Georgy and Heistermann, Maik and Winterrath, Tanja},
-  title = {Optical flow models as an open benchmark for radar-based precipitation nowcasting (rainymotion v0.1)},
-  journal = {Geoscientific Model Development},
-  volume = {12},
-  number = {4},
-  pages = {1387--1402},
-  year = {2019},
-  doi = {10.5194/gmd-12-1387-2019}
-}
-```
-
-</details>
-
-## pySTEPS
-**Pysteps: an open-source Python library for probabilistic precipitation nowcasting (v1.0)**
-* github: https://github.com/pySTEPS/pysteps
-<details><summary>bibtex</summary>
-
-```bibtex
-@article{pulkkinen2019pysteps,
-  author = {Pulkkinen, Seppo and Nerini, Daniele and Pérez Hortal, Andrés A. and Velasco-Forero, Carlos and Seed, Alan and Germann, Urs and Foresti, Loris},
-  title = {Pysteps: an open-source Python library for probabilistic precipitation nowcasting (v1.0)},
-  journal = {Geoscientific Model Development},
-  volume = {12},
-  number = {10},
-  pages = {4185--4219},
-  year = {2019},
-  doi = {10.5194/gmd-12-4185-2019}
-}
-```
-
-</details>
-
-## U-Net-based Nowcasting
-**Machine Learning for Precipitation Nowcasting from Radar Images**
-* blog: https://ai.googleblog.com/2020/01/using-machine-learning-to-nowcast.html
+##### (2019) Machine Learning for Precipitation Nowcasting from Radar Images
+* Venue: *arXiv*
+* Blog: https://ai.googleblog.com/2020/01/using-machine-learning-to-nowcast.html
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -160,46 +35,10 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## A Review of Radar-Based Nowcasting
-**A review of radar-based nowcasting of precipitation and applicable machine learning techniques**
-<details><summary>bibtex</summary>
-
-```bibtex
-@misc{prudden2020review,
-  author = {Rachel Prudden and Samantha Adams and Dmitry Kangin and Niall Robinson and Suman Ravuri and Shakir Mohamed and Alberto Arribas},
-  title = {A review of radar-based nowcasting of precipitation and applicable machine learning techniques},
-  year = {2020},
-  eprint = {2005.04988},
-  archivePrefix = {arXiv},
-  primaryClass = {physics.ao-ph}
-}
-```
-
-</details>
-
-## RainNet
-**RainNet v1.0: a convolutional neural network for radar-based precipitation nowcasting**
-* github: https://github.com/hydrogo/rainnet
-<details><summary>bibtex</summary>
-
-```bibtex
-@article{ayzel2020rainnet,
-  author = {Ayzel, Georgy and Scheffer, Tobias and Heistermann, Maik},
-  title = {RainNet v1.0: a convolutional neural network for radar-based precipitation nowcasting},
-  journal = {Geoscientific Model Development},
-  volume = {13},
-  number = {6},
-  pages = {2631--2644},
-  year = {2020},
-  doi = {10.5194/gmd-13-2631-2020}
-}
-```
-
-</details>
-
-## MetNet
-**MetNet: A Neural Weather Model for Precipitation Forecasting**
-* github: https://github.com/openclimatefix/metnet
+##### (2020) MetNet: A Neural Weather Model for Precipitation Forecasting
+* Venue: *arXiv*
+* Model: MetNet
+* GitHub: https://github.com/openclimatefix/metnet
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -215,9 +54,10 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## DGMR
-**Skilful precipitation nowcasting using deep generative models of radar**
-* github: https://github.com/deepmind/deepmind-research/tree/master/nowcasting, https://github.com/openclimatefix/skillful_nowcasting
+##### (2021) Skilful precipitation nowcasting using deep generative models of radar
+* Venue: *Nature*
+* Model: DGMR
+* GitHub: https://github.com/deepmind/deepmind-research/tree/master/nowcasting, https://github.com/openclimatefix/skillful_nowcasting
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -235,11 +75,11 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## MetNet-2
-**(1) Skillful Twelve Hour Precipitation Forecasts using Large Context Neural Networks**
-
-**(2) Deep learning for twelve hour precipitation forecasts**
-* blog: https://ai.googleblog.com/2021/11/metnet-2-deep-learning-for-12-hour.html
+##### (2021) Skillful Twelve Hour Precipitation Forecasts using Large Context Neural Networks
+* Venue: *arXiv*
+* Model: MetNet-2
+* Journal version: Deep learning for twelve hour precipitation forecasts (*Nature Communications*, 2022)
+* Blog: https://ai.googleblog.com/2021/11/metnet-2-deep-learning-for-12-hour.html
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -265,10 +105,11 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## MetNet-3
-**Deep Learning for Day Forecasts from Sparse Observations**
-* github: https://github.com/lucidrains/metnet3-pytorch
-* blog: https://research.google/blog/metnet-3-a-state-of-the-art-neural-weather-model-available-in-google-products/
+##### (2023) Deep Learning for Day Forecasts from Sparse Observations
+* Venue: *arXiv*
+* Model: MetNet-3
+* GitHub: https://github.com/lucidrains/metnet3-pytorch
+* Blog: https://research.google/blog/metnet-3-a-state-of-the-art-neural-weather-model-available-in-google-products/
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -284,9 +125,191 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## DeepRaNE
-**Effective Training Strategies for Deep-learning-based Precipitation Nowcasting and Estimation**
-* github: https://github.com/jihoonko/DeepRaNE
+##### (2023) Learning skillful medium-range global weather forecasting
+* Venue: *Science*
+* Model: GraphCast
+* GitHub: https://github.com/google-deepmind/graphcast
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{lam2023graphcast,
+  author = {Lam, Remi and Sanchez-Gonzalez, Alvaro and Willson, Matthew and Wirnsberger, Peter and Fortunato, Meire and Alet, Ferran and Ravuri, Suman and Ewalds, Timo and Eaton-Rosen, Zach and Hu, Weihua and Merose, Alexander and Hoyer, Stephan and Holland, George and Vinyals, Oriol and Stott, Jacklynn and Pritzel, Alexander and Mohamed, Shakir and Battaglia, Peter},
+  title = {Learning skillful medium-range global weather forecasting},
+  journal = {Science},
+  volume = {382},
+  number = {6677},
+  pages = {1416--1421},
+  year = {2023},
+  doi = {10.1126/science.adi2336}
+}
+```
+
+</details>
+
+### Others
+---
+
+##### (2015) Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting
+* Venue: *NeurIPS*
+* Model: ConvLSTM
+<details><summary>bibtex</summary>
+
+```bibtex
+@inproceedings{shi2015convlstm,
+  author = {Xingjian Shi and Zhourong Chen and Hao Wang and Dit{-}Yan Yeung and Wai{-}Kin Wong and Wang{-}chun Woo},
+  title = {Convolutional {LSTM} Network: {A} Machine Learning Approach for Precipitation Nowcasting},
+  booktitle = {Advances in Neural Information Processing Systems 28: Annual Conference on Neural Information Processing Systems 2015, December 7-12, 2015, Montreal, Quebec, Canada},
+  pages = {802--810},
+  year = {2015},
+  url = {https://proceedings.neurips.cc/paper/2015/hash/07563a3fe3bbe7e3ba84431ad9d055af-Abstract.html}
+}
+```
+
+</details>
+
+##### (2016) Rainfall Prediction: A Deep Learning Approach
+* Venue: *Hybrid Artificial Intelligent Systems (HAIS)*
+* Model: MLP-based Method
+<details><summary>bibtex</summary>
+
+```bibtex
+@inbook{hernandez2016rainfall,
+  author = {Hernández, Emilcy and Sanchez-Anguix, Victor and Julian, Vicente and Palanca, Javier and Duque, Néstor},
+  title = {Rainfall Prediction: A Deep Learning Approach},
+  booktitle = {Hybrid Artificial Intelligent Systems},
+  publisher = {Springer International Publishing},
+  pages = {151--162},
+  year = {2016},
+  doi = {10.1007/978-3-319-32034-2_13}
+}
+```
+
+</details>
+
+##### (2017) Deep Learning for Precipitation Nowcasting: A Benchmark and A New Model
+* Venue: *NeurIPS*
+* Model: TrajGRU
+* GitHub: https://github.com/sxjscience/HKO-7
+<details><summary>bibtex</summary>
+
+```bibtex
+@inproceedings{shi2017trajgru,
+  author = {Xingjian Shi and Zhihan Gao and Leonard Lausen and Hao Wang and Dit{-}Yan Yeung and Wai{-}Kin Wong and Wang{-}chun Woo},
+  title = {Deep Learning for Precipitation Nowcasting: {A} Benchmark and {A} New Model},
+  booktitle = {Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2017, December 4-9, 2017, Long Beach, CA, {USA}},
+  pages = {5617--5627},
+  year = {2017},
+  url = {https://proceedings.neurips.cc/paper/2017/hash/a6db4ed04f1621a119799fd3d7545d3d-Abstract.html}
+}
+```
+
+</details>
+
+##### (2017) A short-term rainfall prediction model using multi-task convolutional neural networks
+* Venue: *IEEE ICDM*
+* Model: CNN-based Method
+<details><summary>bibtex</summary>
+
+```bibtex
+@inproceedings{qiu2017shortterm,
+  author = {Minghui Qiu and Peilin Zhao and Ke Zhang and Jun Huang and Xing Shi and Xiaoguang Wang and Wei Chu},
+  title = {A Short-Term Rainfall Prediction Model Using Multi-task Convolutional Neural Networks},
+  booktitle = {2017 {IEEE} International Conference on Data Mining, {ICDM} 2017, New Orleans, LA, USA, November 18-21, 2017},
+  pages = {395--404},
+  publisher = {{IEEE} Computer Society},
+  year = {2017},
+  doi = {10.1109/ICDM.2017.49}
+}
+```
+
+</details>
+
+##### (2019) All convolutional neural networks for radar-based precipitation nowcasting
+* Venue: *Procedia Computer Science*
+* Model: DozhdyaNet
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{ayzel2019dozhdyanet,
+  author = {Ayzel, G. and Heistermann, M. and Sorokin, A. and Nikitin, O. and Lukyanova, O.},
+  title = {All convolutional neural networks for radar-based precipitation nowcasting},
+  journal = {Procedia Computer Science},
+  volume = {150},
+  pages = {186--192},
+  year = {2019},
+  doi = {10.1016/j.procs.2019.02.036}
+}
+```
+
+</details>
+
+##### (2019) Optical flow models as an open benchmark for radar-based precipitation nowcasting (rainymotion v0.1)
+* Venue: *Geoscientific Model Development*
+* Model: rainymotion
+* GitHub: https://github.com/hydrogo/rainymotion
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{ayzel2019rainymotion,
+  author = {Ayzel, Georgy and Heistermann, Maik and Winterrath, Tanja},
+  title = {Optical flow models as an open benchmark for radar-based precipitation nowcasting (rainymotion v0.1)},
+  journal = {Geoscientific Model Development},
+  volume = {12},
+  number = {4},
+  pages = {1387--1402},
+  year = {2019},
+  doi = {10.5194/gmd-12-1387-2019}
+}
+```
+
+</details>
+
+##### (2019) Pysteps: an open-source Python library for probabilistic precipitation nowcasting (v1.0)
+* Venue: *Geoscientific Model Development*
+* Model: pySTEPS
+* GitHub: https://github.com/pySTEPS/pysteps
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{pulkkinen2019pysteps,
+  author = {Pulkkinen, Seppo and Nerini, Daniele and Pérez Hortal, Andrés A. and Velasco-Forero, Carlos and Seed, Alan and Germann, Urs and Foresti, Loris},
+  title = {Pysteps: an open-source Python library for probabilistic precipitation nowcasting (v1.0)},
+  journal = {Geoscientific Model Development},
+  volume = {12},
+  number = {10},
+  pages = {4185--4219},
+  year = {2019},
+  doi = {10.5194/gmd-12-4185-2019}
+}
+```
+
+</details>
+
+##### (2020) RainNet v1.0: a convolutional neural network for radar-based precipitation nowcasting
+* Venue: *Geoscientific Model Development*
+* Model: RainNet
+* GitHub: https://github.com/hydrogo/rainnet
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{ayzel2020rainnet,
+  author = {Ayzel, Georgy and Scheffer, Tobias and Heistermann, Maik},
+  title = {RainNet v1.0: a convolutional neural network for radar-based precipitation nowcasting},
+  journal = {Geoscientific Model Development},
+  volume = {13},
+  number = {6},
+  pages = {2631--2644},
+  year = {2020},
+  doi = {10.5194/gmd-13-2631-2020}
+}
+```
+
+</details>
+
+##### (2022) Effective Training Strategies for Deep-learning-based Precipitation Nowcasting and Estimation
+* Venue: *Computers & Geosciences*
+* Model: DeepRaNE
+* GitHub: https://github.com/jihoonko/DeepRaNE
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -303,8 +326,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## ASOC
-**Deep-Learning-Based Precipitation Nowcasting with Ground Weather Station Data and Radar Data**
+##### (2022) Deep-Learning-Based Precipitation Nowcasting with Ground Weather Station Data and Radar Data
+* Venue: *arXiv*
+* Model: ASOC
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -320,9 +344,10 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## Earthformer
-**Earthformer: Exploring Space-Time Transformers for Earth System Forecasting**
-* github: https://github.com/amazon-science/earth-forecasting-transformer
+##### (2022) Earthformer: Exploring Space-Time Transformers for Earth System Forecasting
+* Venue: *NeurIPS*
+* Model: Earthformer
+* GitHub: https://github.com/amazon-science/earth-forecasting-transformer
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -337,8 +362,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## SimVP
-**Precipitation nowcasting using ground radar data and simpler yet better video prediction deep learning**
+##### (2023) Precipitation nowcasting using ground radar data and simpler yet better video prediction deep learning
+* Venue: *GIScience & Remote Sensing*
+* Model: SimVP
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -355,8 +381,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## MM-RNN
-**MM-RNN: A Multimodal RNN for Precipitation Nowcasting**
+##### (2023) MM-RNN: A Multimodal RNN for Precipitation Nowcasting
+* Venue: *IEEE TGRS*
+* Model: MM-RNN
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -373,10 +400,11 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## ClimaX
-**ClimaX: A foundation model for weather and climate**
-* github: https://github.com/microsoft/ClimaX
-* blog: https://www.microsoft.com/en-us/research/group/autonomous-systems-group-robotics/articles/introducing-climax-the-first-foundation-model-for-weather-and-climate/
+##### (2023) ClimaX: A foundation model for weather and climate
+* Venue: *ICML*
+* Model: ClimaX
+* GitHub: https://github.com/microsoft/ClimaX
+* Blog: https://www.microsoft.com/en-us/research/group/autonomous-systems-group-robotics/articles/introducing-climax-the-first-foundation-model-for-weather-and-climate/
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -395,8 +423,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## NowcastNet
-**Skilful nowcasting of extreme precipitation with NowcastNet**
+##### (2023) Skilful nowcasting of extreme precipitation with NowcastNet
+* Venue: *Nature*
+* Model: NowcastNet
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -414,8 +443,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## MFF
-**Deep Learning Model based on Multi-scale Feature Fusion for Precipitation Nowcasting**
+##### (2023) Deep Learning Model based on Multi-scale Feature Fusion for Precipitation Nowcasting
+* Venue: *Geoscientific Model Development (preprint)*
+* Model: MFF
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -430,9 +460,10 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## LDCast
-**Latent diffusion models for generative precipitation nowcasting with accurate uncertainty quantification**
-* github: https://github.com/MeteoSwiss/ldcast
+##### (2023) Latent diffusion models for generative precipitation nowcasting with accurate uncertainty quantification
+* Venue: *arXiv*
+* Model: LDCast
+* GitHub: https://github.com/MeteoSwiss/ldcast
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -448,8 +479,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## PreDiff
-**PreDiff: Precipitation Nowcasting with Latent Diffusion Models**
+##### (2023) PreDiff: Precipitation Nowcasting with Latent Diffusion Models
+* Venue: *NeurIPS*
+* Model: PreDiff
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -464,8 +496,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## STGM
-**Physical-Dynamic-Driven AI-Synthetic Precipitation Nowcasting Using Task-Segmented Generative Model**
+##### (2023) Physical-Dynamic-Driven AI-Synthetic Precipitation Nowcasting Using Task-Segmented Generative Model
+* Venue: *Geophysical Research Letters*
+* Model: STGM
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -482,28 +515,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## GraphCast
-**Learning skillful medium-range global weather forecasting**
-* github: https://github.com/google-deepmind/graphcast
-<details><summary>bibtex</summary>
-
-```bibtex
-@article{lam2023graphcast,
-  author = {Lam, Remi and Sanchez-Gonzalez, Alvaro and Willson, Matthew and Wirnsberger, Peter and Fortunato, Meire and Alet, Ferran and Ravuri, Suman and Ewalds, Timo and Eaton-Rosen, Zach and Hu, Weihua and Merose, Alexander and Hoyer, Stephan and Holland, George and Vinyals, Oriol and Stott, Jacklynn and Pritzel, Alexander and Mohamed, Shakir and Battaglia, Peter},
-  title = {Learning skillful medium-range global weather forecasting},
-  journal = {Science},
-  volume = {382},
-  number = {6677},
-  pages = {1416--1421},
-  year = {2023},
-  doi = {10.1126/science.adi2336}
-}
-```
-
-</details>
-
-## PAUNet
-**PAUNet: Precipitation Attention-based U-Net for rain prediction from satellite radiance data**
+##### (2023) PAUNet: Precipitation Attention-based U-Net for rain prediction from satellite radiance data
+* Venue: *arXiv*
+* Model: PAUNet
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -519,8 +533,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## RainAI
-**RainAI - Precipitation Nowcasting from Satellite Data**
+##### (2023) RainAI - Precipitation Nowcasting from Satellite Data
+* Venue: *arXiv*
+* Model: RainAI
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -536,8 +551,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## DiffCast
-**DiffCast: A Unified Framework via Residual Diffusion for Precipitation Nowcasting**
+##### (2024) DiffCast: A Unified Framework via Residual Diffusion for Precipitation Nowcasting
+* Venue: *CVPR*
+* Model: DiffCast
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -554,8 +570,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## Balanced Loss and Temperature Data
-**Improving Precipitation Nowcasting for High-Intensity Events Using Deep Generative Models with Balanced Loss and Temperature Data: A Case Study in the Netherlands**
+##### (2023) Improving Precipitation Nowcasting for High-Intensity Events Using Deep Generative Models with Balanced Loss and Temperature Data: A Case Study in the Netherlands
+* Venue: *Artificial Intelligence for the Earth Systems*
+* Model: Balanced Loss and Temperature Data
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -572,8 +589,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## CasCast
-**CasCast: Skillful High-resolution Precipitation Nowcasting via Cascaded Modelling**
+##### (2024) CasCast: Skillful High-resolution Precipitation Nowcasting via Cascaded Modelling
+* Venue: *arXiv*
+* Model: CasCast
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -589,8 +607,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## DB-RNN
-**DB-RNN: A RNN for Precipitation Nowcasting Deblurring**
+##### (2024) DB-RNN: A RNN for Precipitation Nowcasting Deblurring
+* Venue: *IEEE JSTARS*
+* Model: DB-RNN
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -607,8 +626,9 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## PP-Loss
-**PP-Loss: An imbalanced regression loss based on plotting position for improved precipitation nowcasting**
+##### (2024) PP-Loss: An imbalanced regression loss based on plotting position for improved precipitation nowcasting
+* Venue: *Theoretical and Applied Climatology*
+* Model: PP-Loss
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -629,39 +649,41 @@ Awesome Precipitation Nowcasting (Redux Edition)
 :pushpin: Workshop
 ==
 
-## Tackling Climate Change with Machine Learning
-* venue: NeurIPS 2022
-* link: https://www.climatechange.ai/events/neurips2022
+##### (2022) Tackling Climate Change with Machine Learning
+* Venue: *NeurIPS*
+* Link: https://www.climatechange.ai/events/neurips2022
 
-## Tackling Climate Change with Machine Learning: Blending New and Existing Knowledge Systems
-* venue: NeurIPS 2023
-* link: https://neurips.cc/virtual/2023/workshop/66543
+##### (2023) Tackling Climate Change with Machine Learning: Blending New and Existing Knowledge Systems
+* Venue: *NeurIPS*
+* Link: https://neurips.cc/virtual/2023/workshop/66543
 
-## Weather4cast
-* venue: NeurIPS 2023 competition
-* link: https://weather4cast.net/
+##### (2023) Weather4cast
+* Venue: *NeurIPS competition*
+* Link: https://weather4cast.net/
 
-## Weather4cast (2024)
-* venue: NeurIPS 2024 competition
-* link: https://weather4cast.net/neurips2024/
+##### (2024) Weather4cast
+* Venue: *NeurIPS competition*
+* Link: https://weather4cast.net/neurips2024/
 
-## Weather4cast (2025)
-* venue: NeurIPS 2025 competition. Multi-task challenges for weather & pollution pattern prediction on the road to hi-res foundation models: super-resolution rain movies, cumulative rainfall, severe weather events, and (new for 2025) atmospheric pollution forecasting.
-* link: https://weather4cast.net/neurips2025/, https://neurips.cc/virtual/2025/competition/127725
+##### (2025) Weather4cast
+* Venue: *NeurIPS competition*
+* Intro: Multi-task challenges for weather & pollution pattern prediction on the road to hi-res foundation models: super-resolution rain movies, cumulative rainfall, severe weather events, and (new for 2025) atmospheric pollution forecasting.
+* Link: https://weather4cast.net/neurips2025/, https://neurips.cc/virtual/2025/competition/127725
 
 :minidisc: Datasets
 ==
 
-<!-- ## EarthNet2021
-**EarthNet2021: A large-scale dataset and challenge for Earth surface forecasting as a guided video prediction task.**
-* venue: CVPR Workshop EarthVision (2021)
-* paper: https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Requena-Mesa_EarthNet2021_A_Large-Scale_Dataset_and_Challenge_for_Earth_Surface_Forecasting_CVPRW_2021_paper.html
-* doc: https://www.earthnet.tech/
-* github: https://github.com/earthnet2021/earthnet-model-intercomparison-suite -->
+<!-- ##### (2021) EarthNet2021: A large-scale dataset and challenge for Earth surface forecasting as a guided video prediction task
+* Venue: *CVPR Workshop EarthVision*
+* Dataset: EarthNet2021
+* Paper: https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Requena-Mesa_EarthNet2021_A_Large-Scale_Dataset_and_Challenge_for_Earth_Surface_Forecasting_CVPRW_2021_paper.html
+* Doc: https://www.earthnet.tech/
+* GitHub: https://github.com/earthnet2021/earthnet-model-intercomparison-suite -->
 
-## RainBench
-**RainBench: Towards Global Precipitation Forecasting from Satellite Imagery**
-* github: https://github.com/FrontierDevelopmentLab/PyRain
+##### (2021) RainBench: Towards Global Precipitation Forecasting from Satellite Imagery
+* Venue: *AAAI*
+* Dataset: RainBench
+* GitHub: https://github.com/FrontierDevelopmentLab/PyRain
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -678,9 +700,10 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## KoMet
-**Benchmark Dataset for Precipitation Forecasting by Post-Processing the Numerical Weather Prediction**
-* github: https://github.com/osilab-kaist/KoMet-Benchmark-Dataset
+##### (2022) Benchmark Dataset for Precipitation Forecasting by Post-Processing the Numerical Weather Prediction
+* Venue: *arXiv*
+* Dataset: KoMet
+* GitHub: https://github.com/osilab-kaist/KoMet-Benchmark-Dataset
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -696,9 +719,10 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## PostRainBench
-**PostRainBench: A Comprehensive Benchmark and a New Model for Precipitation Forecasting**
-* github: https://github.com/yyyujintang/PostRainBench
+##### (2024) PostRainBench: A Comprehensive Benchmark and a New Model for Precipitation Forecasting
+* Venue: *arXiv*
+* Dataset: PostRainBench
+* GitHub: https://github.com/yyyujintang/PostRainBench
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -717,10 +741,12 @@ Awesome Precipitation Nowcasting (Redux Edition)
 :book: Libraries
 ==
 
-## Py-ART
-**The Python-ARM Radar Toolkit. A data model driven interactive toolkit for working with weather radar data.**
-* doc: https://arm-doe.github.io/pyart/
-* github: https://github.com/ARM-DOE/pyart
+##### (2016) The Python ARM Radar Toolkit (Py-ART), a Library for Working with Weather Radar Data in the Python Programming Language
+* Venue: *Journal of Open Research Software*
+* Library: Py-ART
+* Intro: A data model driven interactive toolkit for working with weather radar data.
+* Doc: https://arm-doe.github.io/pyart/
+* GitHub: https://github.com/ARM-DOE/pyart
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -738,10 +764,12 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## wradlib
-**wradlib: An Open Source Library for Weather Radar Data Processing**
-* doc: https://docs.wradlib.org/en/stable/
-* github: https://github.com/wradlib/wradlib
+##### (2013) Technical Note: An open source library for processing weather radar data (wradlib)
+* Venue: *Hydrology and Earth System Sciences*
+* Library: wradlib
+* Intro: An open source library for weather radar data processing.
+* Doc: https://docs.wradlib.org/en/stable/
+* GitHub: https://github.com/wradlib/wradlib
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -759,10 +787,12 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## Cartopy
-**Cartopy is a Python package designed to make drawing maps for data analysis and visualisation easy.**
-* doc: https://scitools.org.uk/cartopy/docs/latest/
-* github: https://github.com/SciTools/cartopy
+##### (2010) Cartopy: a cartographic Python library with a Matplotlib interface
+* Venue: *Met Office*
+* Library: Cartopy
+* Intro: A Python package designed to make drawing maps for data analysis and visualisation easy.
+* Doc: https://scitools.org.uk/cartopy/docs/latest/
+* GitHub: https://github.com/SciTools/cartopy
 <details><summary>bibtex</summary>
 
 ```bibtex
@@ -777,39 +807,42 @@ Awesome Precipitation Nowcasting (Redux Edition)
 
 </details>
 
-## Satflow
-**Satellite Optical Flow with machine learning models**
-* doc: https://satflow.readthedocs.io/en/stable/
-* github: https://github.com/openclimatefix/satflow
+##### Satflow
+* Library: Satflow
+* Intro: Satellite optical flow with machine learning models.
+* Doc: https://satflow.readthedocs.io/en/stable/
+* GitHub: https://github.com/openclimatefix/satflow
 
-<!-- ## Google Earth Engine API
-**Python and JavaScript bindings for calling the Earth Engine API.**
-* doc: https://earthengine.google.com/
-* github: https://github.com/google/earthengine-api -->
+<!-- ##### Google Earth Engine API
+* Library: Google Earth Engine API
+* Intro: Python and JavaScript bindings for calling the Earth Engine API.
+* Doc: https://earthengine.google.com/
+* GitHub: https://github.com/google/earthengine-api -->
 
-<!-- ## OpenSTL
-**OpenSTL: A Comprehensive Benchmark of Spatio-Temporal Predictive Learning**
-* doc: https://openstl.readthedocs.io/en/latest/
-* github: https://github.com/chengtan9907/OpenSTL -->
+<!-- ##### OpenSTL: A Comprehensive Benchmark of Spatio-Temporal Predictive Learning
+* Library: OpenSTL
+* Doc: https://openstl.readthedocs.io/en/latest/
+* GitHub: https://github.com/chengtan9907/OpenSTL -->
 
-<!-- ## WeatherBench 2
-**A benchmark for the next generation of data-driven global weather models**
-* venue: arXiv (2023)
-* paper: https://arxiv.org/abs/2308.15560
-* doc: https://blog.research.google/2023/08/weatherbench-2-benchmark-for-next.html
-* github: https://github.com/google-research/weatherbench2 -->
+<!-- ##### (2023) WeatherBench 2
+* Venue: *arXiv*
+* Library: WeatherBench 2
+* Intro: A benchmark for the next generation of data-driven global weather models.
+* Paper: https://arxiv.org/abs/2308.15560
+* Doc: https://blog.research.google/2023/08/weatherbench-2-benchmark-for-next.html
+* GitHub: https://github.com/google-research/weatherbench2 -->
 
 <!--
 :earth_asia: Others
 ==
-## EarthArXiv
-* intro: EarthArXiv publishes articles from all subdomains of Earth Science and related domains of planetary science.
-* link: https://eartharxiv.org/repository/about/
+##### EarthArXiv
+* Intro: EarthArXiv publishes articles from all subdomains of Earth Science and related domains of planetary science.
+* Link: https://eartharxiv.org/repository/about/
 
-## Awesome-Foundation-Models-for-Weather-and-Climate
-* intro: A survey of foundation models for weather and climate data understanding.
-* github: https://github.com/shengchaochen82/Awesome-Foundation-Models-for-Weather-and-Climate
+##### Awesome-Foundation-Models-for-Weather-and-Climate
+* Intro: A survey of foundation models for weather and climate data understanding.
+* GitHub: https://github.com/shengchaochen82/Awesome-Foundation-Models-for-Weather-and-Climate
 
-## Awesome Large Weather Models
-* intro: A collection of awesome Large Weather Models (LWMs) | AI for Earth (AI4Earth) | AI for Science (AI4Science)
-* github: https://github.com/jaychempan/Awesome-LWMs -->
+##### Awesome Large Weather Models
+* Intro: A collection of awesome Large Weather Models (LWMs) | AI for Earth (AI4Earth) | AI for Science (AI4Science)
+* GitHub: https://github.com/jaychempan/Awesome-LWMs -->
