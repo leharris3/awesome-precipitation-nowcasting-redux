@@ -44,7 +44,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 ## Machine learning era (~2015-present)
 
-### Google/DeepMind <img src="https://www.google.com/s2/favicons?domain=google.com&sz=64" height="40" align="center" alt="Google logo">
+### Google/DeepMind <img src="https://www.google.com/s2/favicons?domain=google.com&sz=64" height="20" align="center" alt="Google logo">
 ---
 
 ##### (2019) Machine Learning for Precipitation Nowcasting from Radar Images
@@ -155,7 +155,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-### NVIDIA <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=64" height="40" align="center" alt="NVIDIA logo">
+### NVIDIA <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=64" height="20" align="center" alt="NVIDIA logo">
 ---
 
 ##### (2026) Learning Accurate Storm-Scale Evolution from Observations
@@ -194,7 +194,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-### Microsoft <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=64" height="40" align="center" alt="Microsoft logo">
+### Microsoft <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=64" height="20" align="center" alt="Microsoft logo">
 ---
 
 ##### (2021) MS-nowcasting: Operational Precipitation Nowcasting with Convolutional LSTMs at Microsoft Weather
@@ -215,7 +215,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-### Amazon <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=64" height="40" align="center" alt="Amazon logo">
+### Amazon <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=64" height="20" align="center" alt="Amazon logo">
 ---
 
 ##### (2023) PreDiff: Precipitation Nowcasting with Latent Diffusion Models
@@ -235,7 +235,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-### IBM <img src="https://www.google.com/s2/favicons?domain=ibm.com&sz=64" height="40" align="center" alt="IBM logo">
+### IBM <img src="https://www.google.com/s2/favicons?domain=ibm.com&sz=64" height="20" align="center" alt="IBM logo">
 ---
 
 ##### (2018) A spatio-temporal modeling framework for weather radar image data in tropical Southeast Asia
