@@ -8,15 +8,37 @@ Awesome Precipitation Nowcasting (Redux)
 * Image credit: NASA Goddard Space Flight Center/[GPM IMERG](https://gpm.nasa.gov/data/imerg).
 
 ### TOC
-* [:paperclip: Papers](https://github.com/tyui592/awesome-precipitation-nowcasting#paperclip-paperscodes)
-* [:minidisc: Datasets](https://github.com/tyui592/awesome-precipitation-nowcasting#minidisc-dataset)
-* [:pushpin: Workshops](https://github.com/tyui592/awesome-precipitation-nowcasting#pushpin-workshop)
-* [:computer: Libraries](https://github.com/tyui592/awesome-precipitation-nowcasting#computer-library)
-<!-- * [:earth_asia: Others](https://github.com/tyui592/awesome-precipitation-nowcasting#earth_asia-Others) -->
+* [:page_facing_up: Papers](https://github.com/tyui592/awesome-precipitation-nowcasting#page_facing_up-papers)
+* [:card_file_box: Datasets](https://github.com/tyui592/awesome-precipitation-nowcasting#card_file_box-datasets)
+* [:calendar: Workshops](https://github.com/tyui592/awesome-precipitation-nowcasting#calendar-workshops)
+* [:package: Libraries](https://github.com/tyui592/awesome-precipitation-nowcasting#package-libraries)
+<!-- * [:link: Others](https://github.com/tyui592/awesome-precipitation-nowcasting#link-others) -->
 <!-- *If I missed any of your work, or if something here needs an update, please email me or just open a pull request. Thank you!* -->
 
-:paperclip: Papers
+:page_facing_up: Papers
 ==
+
+## Modern era (~2000-2015)
+
+##### (2003) Distributed Quantitative Precipitation Forecasting Using Information from Radar and Numerical Weather Prediction Models
+* Venue: *Journal of Hydrometeorology*
+* Model: DQPF
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{ganguly2003distributed,
+  author = {Ganguly, Auroop R. and Bras, Rafael L.},
+  title = {Distributed Quantitative Precipitation Forecasting Using Information from Radar and Numerical Weather Prediction Models},
+  journal = {Journal of Hydrometeorology},
+  volume = {4},
+  number = {6},
+  pages = {1168--1180},
+  year = {2003},
+  doi = {10.1175/1525-7541(2003)004<1168:DQPFUI>2.0.CO;2}
+}
+```
+
+</details>
 
 ## Machine learning era (~2015-present)
 
@@ -147,6 +169,27 @@ Awesome Precipitation Nowcasting (Redux)
   pages = {1416--1421},
   year = {2023},
   doi = {10.1126/science.adi2336}
+}
+```
+
+</details>
+
+### NVIDIA <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=64" height="40" align="center" alt="NVIDIA logo">
+---
+
+##### (2026) Learning Accurate Storm-Scale Evolution from Observations
+* Venue: *arXiv*
+* Model: Stormscope
+<details><summary>bibtex</summary>
+
+```bibtex
+@misc{pathak2026stormscope,
+  author = {Jaideep Pathak and Mohammad Shoaib Abbas and Peter Harrington and Zeyuan Hu and Noah Brenowitz and Suman Ravuri and Alberto Carpentieri and Jussi Leinonen and Corey Adams and Oliver Hennigh and Nicholas Geneva and Dale Durran and Mike Pritchard},
+  title = {Learning Accurate Storm-Scale Evolution from Observations},
+  year = {2026},
+  eprint = {2601.17268},
+  archivePrefix = {arXiv},
+  primaryClass = {physics.ao-ph}
 }
 ```
 
@@ -652,7 +695,46 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-:minidisc: Datasets
+##### (2024) Hybrid physics-AI outperforms numerical weather prediction for extreme precipitation nowcasting
+* Venue: *npj Climate and Atmospheric Science*
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{das2024hybrid,
+  author = {Das, Puja and Posch, August and Barber, Nathan and Hicks, Michael and Duffy, Kate and Vandal, Thomas and Singh, Debjani and van Werkhoven, Katie and Ganguly, Auroop R.},
+  title = {Hybrid physics-AI outperforms numerical weather prediction for extreme precipitation nowcasting},
+  journal = {npj Climate and Atmospheric Science},
+  volume = {7},
+  number = {1},
+  pages = {282},
+  year = {2024},
+  doi = {10.1038/s41612-024-00834-8}
+}
+```
+
+</details>
+
+##### (2025) A Space-Time Transformer for Precipitation Nowcasting
+* Venue: *arXiv*
+* Model: SaTformer
+* GitHub: https://github.com/leharris3/satformer
+<!-- * Intro: First place on the NeurIPS Weather4cast 2025 "Cumulative Rainfall" challenge. -->
+<details><summary>bibtex</summary>
+
+```bibtex
+@misc{harris2025satformer,
+  author = {Levi Harris and Tianlong Chen},
+  title = {A Space-Time Transformer for Precipitation Nowcasting},
+  year = {2025},
+  eprint = {2511.11090},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CV}
+}
+```
+
+</details>
+
+:card_file_box: Datasets
 ==
 
 <!-- ##### (2021) EarthNet2021: A large-scale dataset and challenge for Earth surface forecasting as a guided video prediction task
@@ -720,7 +802,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-:pushpin: Workshops
+:calendar: Workshops
 ==
 
 ##### (2022) Tackling Climate Change with Machine Learning
@@ -741,16 +823,16 @@ Awesome Precipitation Nowcasting (Redux)
 
 ##### (2025) Weather4cast
 * Venue: *NeurIPS competition*
-* Intro: Multi-task challenges for weather & pollution pattern prediction on the road to hi-res foundation models: super-resolution rain movies, cumulative rainfall, severe weather events, and (new for 2025) atmospheric pollution forecasting.
+<!-- * Intro: Multi-task challenges for weather & pollution pattern prediction on the road to hi-res foundation models: super-resolution rain movies, cumulative rainfall, severe weather events, and (new for 2025) atmospheric pollution forecasting. -->
 * Link: https://weather4cast.net/neurips2025/, https://neurips.cc/virtual/2025/competition/127725
 
-:book: Libraries
+:package: Libraries
 ==
 
 ##### (2016) The Python ARM Radar Toolkit (Py-ART), a Library for Working with Weather Radar Data in the Python Programming Language
 * Venue: *Journal of Open Research Software*
 * Library: Py-ART
-* Intro: A data model driven interactive toolkit for working with weather radar data.
+<!-- * Intro: A data model driven interactive toolkit for working with weather radar data. -->
 * Doc: https://arm-doe.github.io/pyart/
 * GitHub: https://github.com/ARM-DOE/pyart
 <details><summary>bibtex</summary>
@@ -773,7 +855,7 @@ Awesome Precipitation Nowcasting (Redux)
 ##### (2013) Technical Note: An open source library for processing weather radar data (wradlib)
 * Venue: *Hydrology and Earth System Sciences*
 * Library: wradlib
-* Intro: An open source library for weather radar data processing.
+<!-- * Intro: An open source library for weather radar data processing. -->
 * Doc: https://docs.wradlib.org/en/stable/
 * GitHub: https://github.com/wradlib/wradlib
 <details><summary>bibtex</summary>
@@ -796,7 +878,7 @@ Awesome Precipitation Nowcasting (Redux)
 ##### (2010) Cartopy: a cartographic Python library with a Matplotlib interface
 * Venue: *Met Office*
 * Library: Cartopy
-* Intro: A Python package designed to make drawing maps for data analysis and visualisation easy.
+<!-- * Intro: A Python package designed to make drawing maps for data analysis and visualisation easy. -->
 * Doc: https://scitools.org.uk/cartopy/docs/latest/
 * GitHub: https://github.com/SciTools/cartopy
 <details><summary>bibtex</summary>
@@ -815,13 +897,13 @@ Awesome Precipitation Nowcasting (Redux)
 
 ##### Satflow
 * Library: Satflow
-* Intro: Satellite optical flow with machine learning models.
+<!-- * Intro: Satellite optical flow with machine learning models. -->
 * Doc: https://satflow.readthedocs.io/en/stable/
 * GitHub: https://github.com/openclimatefix/satflow
 
 <!-- ##### Google Earth Engine API
 * Library: Google Earth Engine API
-* Intro: Python and JavaScript bindings for calling the Earth Engine API.
+<!-- * Intro: Python and JavaScript bindings for calling the Earth Engine API. -->
 * Doc: https://earthengine.google.com/
 * GitHub: https://github.com/google/earthengine-api -->
 
@@ -833,22 +915,22 @@ Awesome Precipitation Nowcasting (Redux)
 <!-- ##### (2023) WeatherBench 2
 * Venue: *arXiv*
 * Library: WeatherBench 2
-* Intro: A benchmark for the next generation of data-driven global weather models.
+<!-- * Intro: A benchmark for the next generation of data-driven global weather models. -->
 * Paper: https://arxiv.org/abs/2308.15560
 * Doc: https://blog.research.google/2023/08/weatherbench-2-benchmark-for-next.html
 * GitHub: https://github.com/google-research/weatherbench2 -->
 
 <!--
-:earth_asia: Others
+:link: Others
 ==
 ##### EarthArXiv
-* Intro: EarthArXiv publishes articles from all subdomains of Earth Science and related domains of planetary science.
+<!-- * Intro: EarthArXiv publishes articles from all subdomains of Earth Science and related domains of planetary science. -->
 * Link: https://eartharxiv.org/repository/about/
 
 ##### Awesome-Foundation-Models-for-Weather-and-Climate
-* Intro: A survey of foundation models for weather and climate data understanding.
+<!-- * Intro: A survey of foundation models for weather and climate data understanding. -->
 * GitHub: https://github.com/shengchaochen82/Awesome-Foundation-Models-for-Weather-and-Climate
 
 ##### Awesome Large Weather Models
-* Intro: A collection of awesome Large Weather Models (LWMs) | AI for Earth (AI4Earth) | AI for Science (AI4Science)
+<!-- * Intro: A collection of awesome Large Weather Models (LWMs) | AI for Earth (AI4Earth) | AI for Science (AI4Science) -->
 * GitHub: https://github.com/jaychempan/Awesome-LWMs -->
