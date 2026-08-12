@@ -1,7 +1,7 @@
 Awesome Precipitation Nowcasting (Redux)
 ==
 
-👋 Hello! Welcome to a collection of papers, datasets, and other resources related to the (longstanding, but particuarly relevant) task of *precipitation nowcasting*—which we will define as "predicting future precipitation rates or observations (e.g., radar reflectivity) with **0-6 hour** lead times and **sub-hourly temporal resolution** (excluding CAM emulators etc)." 
+👋 Hello! Please enjoy this collection of papers, datasets, and other resources related to the (longstanding, but particuarly relevant) task of *precipitation nowcasting*—which we define here as "predicting future precipitation rates or observations (e.g., radar reflectivity) with **0-6 hour** lead times and **sub-hourly temporal resolution** (excluding CAM emulators etc)." 
 
 <p align="center">
   <img src="assets/IMERG_GrandAvg_2024_Colorbar.png" alt="Global map of average annual precipitation from GPM IMERG, in mm/year" width="100%">
@@ -155,27 +155,6 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-##### (2023) Learning skillful medium-range global weather forecasting
-* Venue: *Science*
-* Model: GraphCast
-* GitHub: https://github.com/google-deepmind/graphcast
-<details><summary>bibtex</summary>
-
-```bibtex
-@article{lam2023graphcast,
-  author = {Lam, Remi and Sanchez-Gonzalez, Alvaro and Willson, Matthew and Wirnsberger, Peter and Fortunato, Meire and Alet, Ferran and Ravuri, Suman and Ewalds, Timo and Eaton-Rosen, Zach and Hu, Weihua and Merose, Alexander and Hoyer, Stephan and Holland, George and Vinyals, Oriol and Stott, Jacklynn and Pritzel, Alexander and Mohamed, Shakir and Battaglia, Peter},
-  title = {Learning skillful medium-range global weather forecasting},
-  journal = {Science},
-  volume = {382},
-  number = {6677},
-  pages = {1416--1421},
-  year = {2023},
-  doi = {10.1126/science.adi2336}
-}
-```
-
-</details>
-
 ### NVIDIA <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=64" height="40" align="center" alt="NVIDIA logo">
 ---
 
@@ -210,6 +189,69 @@ Awesome Precipitation Nowcasting (Redux)
   eprint = {2606.31248},
   archivePrefix = {arXiv},
   primaryClass = {physics.ao-ph}
+}
+```
+
+</details>
+
+### Microsoft <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=64" height="40" align="center" alt="Microsoft logo">
+---
+
+##### (2021) MS-nowcasting: Operational Precipitation Nowcasting with Convolutional LSTMs at Microsoft Weather
+* Venue: *NeurIPS Workshop on Tackling Climate Change with Machine Learning*
+* Model: MS-nowcasting
+<details><summary>bibtex</summary>
+
+```bibtex
+@misc{klocek2021msnowcasting,
+  author = {Sylwester Klocek and Haiyu Dong and Matthew Dixon and Panashe Kanengoni and Najeeb Kazmi and Pete Luferenko and Zhongjian Lv and Shikhar Sharma and Jonathan Weyn and Siqi Xiang},
+  title = {MS-nowcasting: Operational Precipitation Nowcasting with Convolutional LSTMs at Microsoft Weather},
+  year = {2021},
+  eprint = {2111.09954},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.LG}
+}
+```
+
+</details>
+
+### Amazon <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=64" height="40" align="center" alt="Amazon logo">
+---
+
+##### (2023) PreDiff: Precipitation Nowcasting with Latent Diffusion Models
+* Venue: *NeurIPS*
+* Model: PreDiff
+<details><summary>bibtex</summary>
+
+```bibtex
+@inproceedings{gao2023prediff,
+  author = {Zhihan Gao and Xingjian Shi and Boran Han and Hao Wang and Xiaoyong Jin and Danielle C. Maddix and Yi Zhu and Mu Li and Yuyang Wang},
+  title = {PreDiff: Precipitation Nowcasting with Latent Diffusion Models},
+  booktitle = {Advances in Neural Information Processing Systems 36: Annual Conference on Neural Information Processing Systems 2023, NeurIPS 2023, New Orleans, LA, USA, December 10 - 16, 2023},
+  year = {2023},
+  url = {http://papers.nips.cc/paper\_files/paper/2023/hash/f82ba6a6b981fbbecf5f2ee5de7db39c-Abstract-Conference.html}
+}
+```
+
+</details>
+
+### IBM <img src="https://www.google.com/s2/favicons?domain=ibm.com&sz=64" height="40" align="center" alt="IBM logo">
+---
+
+##### (2018) A spatio-temporal modeling framework for weather radar image data in tropical Southeast Asia
+* Venue: *The Annals of Applied Statistics*
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{liu2018spatiotemporal,
+  author = {Liu, Xiao and Gopal, Vikneswaran and Kalagnanam, Jayant},
+  title = {A spatio-temporal modeling framework for weather radar image data in tropical Southeast Asia},
+  journal = {The Annals of Applied Statistics},
+  volume = {12},
+  number = {1},
+  pages = {378--407},
+  year = {2018},
+  doi = {10.1214/17-AOAS1064}
 }
 ```
 
@@ -543,23 +585,6 @@ Awesome Precipitation Nowcasting (Redux)
   eprint = {2304.12891},
   archivePrefix = {arXiv},
   primaryClass = {physics.ao-ph}
-}
-```
-
-</details>
-
-##### (2023) PreDiff: Precipitation Nowcasting with Latent Diffusion Models
-* Venue: *NeurIPS*
-* Model: PreDiff
-<details><summary>bibtex</summary>
-
-```bibtex
-@inproceedings{gao2023prediff,
-  author = {Zhihan Gao and Xingjian Shi and Boran Han and Hao Wang and Xiaoyong Jin and Danielle C. Maddix and Yi Zhu and Mu Li and Yuyang Wang},
-  title = {PreDiff: Precipitation Nowcasting with Latent Diffusion Models},
-  booktitle = {Advances in Neural Information Processing Systems 36: Annual Conference on Neural Information Processing Systems 2023, NeurIPS 2023, New Orleans, LA, USA, December 10 - 16, 2023},
-  year = {2023},
-  url = {http://papers.nips.cc/paper\_files/paper/2023/hash/f82ba6a6b981fbbecf5f2ee5de7db39c-Abstract-Conference.html}
 }
 ```
 
@@ -950,7 +975,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 <!-- ##### Google Earth Engine API
 * Library: Google Earth Engine API
-<!-- * Intro: Python and JavaScript bindings for calling the Earth Engine API. -->
+* Intro: Python and JavaScript bindings for calling the Earth Engine API.
 * Doc: https://earthengine.google.com/
 * GitHub: https://github.com/google/earthengine-api -->
 
@@ -962,7 +987,7 @@ Awesome Precipitation Nowcasting (Redux)
 <!-- ##### (2023) WeatherBench 2
 * Venue: *arXiv*
 * Library: WeatherBench 2
-<!-- * Intro: A benchmark for the next generation of data-driven global weather models. -->
+* Intro: A benchmark for the next generation of data-driven global weather models.
 * Paper: https://arxiv.org/abs/2308.15560
 * Doc: https://blog.research.google/2023/08/weatherbench-2-benchmark-for-next.html
 * GitHub: https://github.com/google-research/weatherbench2 -->
@@ -971,13 +996,13 @@ Awesome Precipitation Nowcasting (Redux)
 :link: Others
 ==
 ##### EarthArXiv
-<!-- * Intro: EarthArXiv publishes articles from all subdomains of Earth Science and related domains of planetary science. -->
+* Intro: EarthArXiv publishes articles from all subdomains of Earth Science and related domains of planetary science.
 * Link: https://eartharxiv.org/repository/about/
 
 ##### Awesome-Foundation-Models-for-Weather-and-Climate
-<!-- * Intro: A survey of foundation models for weather and climate data understanding. -->
+* Intro: A survey of foundation models for weather and climate data understanding.
 * GitHub: https://github.com/shengchaochen82/Awesome-Foundation-Models-for-Weather-and-Climate
 
 ##### Awesome Large Weather Models
-<!-- * Intro: A collection of awesome Large Weather Models (LWMs) | AI for Earth (AI4Earth) | AI for Science (AI4Science) -->
+* Intro: A collection of awesome Large Weather Models (LWMs) | AI for Earth (AI4Earth) | AI for Science (AI4Science)
 * GitHub: https://github.com/jaychempan/Awesome-LWMs -->
