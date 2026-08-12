@@ -45,7 +45,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 ## Machine learning era (~2015-present)
 
-### Google/DeepMind <img src="assets/logos/google.png" height="20" align="middle" alt="">
+### <img src="assets/logos/google.png" height="20" align="middle" alt="">
 ---
 
 ##### (2019) Machine Learning for Precipitation Nowcasting from Radar Images
