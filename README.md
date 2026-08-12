@@ -156,7 +156,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-### NVIDIA <img src="assets/logos/nvidia.png" height="20" align="middle" alt="">
+### <img src="assets/logos/nvidia.png" height="20" align="middle" alt="">
 ---
 
 ##### (2026) Learning Accurate Storm-Scale Evolution from Observations
@@ -195,7 +195,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-### Microsoft <img src="assets/logos/microsoft.png" height="20" align="middle" alt="">
+### <img src="assets/logos/microsoft.png" height="20" align="middle" alt="">
 ---
 
 ##### (2021) MS-nowcasting: Operational Precipitation Nowcasting with Convolutional LSTMs at Microsoft Weather
@@ -216,7 +216,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-### Amazon <img src="assets/logos/amazon.png" height="20" align="middle" alt="">
+### <img src="assets/logos/amazon.png" height="20" align="middle" alt="">
 ---
 
 ##### (2023) PreDiff: Precipitation Nowcasting with Latent Diffusion Models
@@ -236,7 +236,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-### IBM <img src="assets/logos/ibm.png" height="20" align="middle" alt="">
+### <img src="assets/logos/ibm.png" height="20" align="middle" alt="">
 ---
 
 ##### (2018) A spatio-temporal modeling framework for weather radar image data in tropical Southeast Asia
@@ -790,7 +790,7 @@ Awesome Precipitation Nowcasting (Redux)
 * Doc: https://www.earthnet.tech/
 * GitHub: https://github.com/earthnet2021/earthnet-model-intercomparison-suite -->
 
-### NASA <img src="assets/logos/nasa.png" height="20" align="middle" alt="">
+### <img src="assets/logos/nasa.png" height="20" align="middle" alt="">
 ---
 
 ##### (2017) The Global Precipitation Measurement (GPM) Mission for Science and Society
@@ -814,7 +814,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-### NOAA <img src="assets/logos/noaa.png" height="20" align="middle" alt="">
+### <img src="assets/logos/noaa.png" height="20" align="middle" alt="">
 ---
 
 ##### (2016) Multi-Radar Multi-Sensor (MRMS) Quantitative Precipitation Estimation: Initial Operating Capabilities
