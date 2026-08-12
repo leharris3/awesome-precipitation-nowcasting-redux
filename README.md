@@ -10,11 +10,11 @@ Awesome Precipitation Nowcasting (Redux)
 * Image credit: NASA Goddard Space Flight Center/[GPM IMERG](https://gpm.nasa.gov/data/imerg).
 
 ### TOC
-* [:page_facing_up: Papers](https://github.com/tyui592/awesome-precipitation-nowcasting#page_facing_up-papers)
-* [:card_file_box: Datasets](https://github.com/tyui592/awesome-precipitation-nowcasting#card_file_box-datasets)
-* [:calendar: Workshops](https://github.com/tyui592/awesome-precipitation-nowcasting#calendar-workshops)
-* [:package: Libraries](https://github.com/tyui592/awesome-precipitation-nowcasting#package-libraries)
-<!-- * [:link: Others](https://github.com/tyui592/awesome-precipitation-nowcasting#link-others) -->
+* [:page_facing_up: Papers](#page_facing_up-papers)
+* [:card_file_box: Datasets](#card_file_box-datasets)
+* [:calendar: Workshops](#calendar-workshops)
+* [:package: Libraries](#package-libraries)
+<!-- * [:link: Others](#link-others) -->
 <!-- *If I missed any of your work, or if something here needs an update, please email me or just open a pull request. Thank you!* -->
 
 :page_facing_up: Papers
@@ -44,7 +44,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 ## Machine learning era (~2015-present)
 
-### Google/DeepMind <img src="https://www.google.com/s2/favicons?domain=google.com&sz=64" height="20" align="center" alt="Google logo">
+### Google/DeepMind <img src="assets/logos/google.svg" height="24" align="middle" alt="">
 ---
 
 ##### (2019) Machine Learning for Precipitation Nowcasting from Radar Images
@@ -155,7 +155,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-### NVIDIA <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=64" height="20" align="center" alt="NVIDIA logo">
+### NVIDIA <img src="assets/logos/nvidia.svg" height="24" align="middle" alt="">
 ---
 
 ##### (2026) Learning Accurate Storm-Scale Evolution from Observations
@@ -194,7 +194,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-### Microsoft <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=64" height="20" align="center" alt="Microsoft logo">
+### Microsoft <img src="assets/logos/microsoft.svg" height="24" align="middle" alt="">
 ---
 
 ##### (2021) MS-nowcasting: Operational Precipitation Nowcasting with Convolutional LSTMs at Microsoft Weather
@@ -215,7 +215,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-### Amazon <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=64" height="20" align="center" alt="Amazon logo">
+### Amazon <img src="assets/logos/amazon.svg" height="24" align="middle" alt="">
 ---
 
 ##### (2023) PreDiff: Precipitation Nowcasting with Latent Diffusion Models
@@ -235,7 +235,7 @@ Awesome Precipitation Nowcasting (Redux)
 
 </details>
 
-### IBM <img src="https://www.google.com/s2/favicons?domain=ibm.com&sz=64" height="20" align="center" alt="IBM logo">
+### IBM <img src="assets/logos/ibm.svg" height="24" align="middle" alt="">
 ---
 
 ##### (2018) A spatio-temporal modeling framework for weather radar image data in tropical Southeast Asia
@@ -789,7 +789,31 @@ Awesome Precipitation Nowcasting (Redux)
 * Doc: https://www.earthnet.tech/
 * GitHub: https://github.com/earthnet2021/earthnet-model-intercomparison-suite -->
 
-### NOAA <img src="https://www.google.com/s2/favicons?domain=noaa.gov&sz=64" height="40" align="center" alt="NOAA logo">
+### NASA <img src="assets/logos/nasa.svg" height="24" align="middle" alt="">
+---
+
+##### (2017) The Global Precipitation Measurement (GPM) Mission for Science and Society
+* Venue: *Bulletin of the American Meteorological Society*
+* Dataset: GPM IMERG
+* Doc: https://gpm.nasa.gov/data/imerg
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{skofronickjackson2017gpm,
+  author = {Skofronick-Jackson, Gail and Petersen, Walter A. and Berg, Wesley and Kidd, Chris and Stocker, Erich F. and Kirschbaum, Dalia B. and Kakar, Ramesh and Braun, Scott A. and Huffman, George J. and Iguchi, Toshio and Kirstetter, Pierre E. and Kummerow, Christian and Meneghini, Robert and Oki, Riko and Olson, William S. and Takayabu, Yukari N. and Furukawa, Kinji and Wilheit, Thomas},
+  title = {The Global Precipitation Measurement (GPM) Mission for Science and Society},
+  journal = {Bulletin of the American Meteorological Society},
+  volume = {98},
+  number = {8},
+  pages = {1679--1695},
+  year = {2017},
+  doi = {10.1175/BAMS-D-15-00306.1}
+}
+```
+
+</details>
+
+### NOAA <img src="assets/logos/noaa.svg" height="24" align="middle" alt="">
 ---
 
 ##### (2016) Multi-Radar Multi-Sensor (MRMS) Quantitative Precipitation Estimation: Initial Operating Capabilities
