@@ -1,6 +1,8 @@
 Awesome Precipitation Nowcasting (Redux)
 ==
 
+👋 Hello! Welcome to a collection of papers, datasets, and other resources related to the (longstanding, but particuarly relevant) task of *precipitation nowcasting*—which we will define as "predicting future precipitation rates or observations (e.g., radar reflectivity) with **0-6 hour** lead times and **sub-hourly temporal resolution** (excluding CAM emulators etc)." 
+
 <p align="center">
   <img src="assets/IMERG_GrandAvg_2024_Colorbar.png" alt="Global map of average annual precipitation from GPM IMERG, in mm/year" width="100%">
 </p>
@@ -188,6 +190,24 @@ Awesome Precipitation Nowcasting (Redux)
   title = {Learning Accurate Storm-Scale Evolution from Observations},
   year = {2026},
   eprint = {2601.17268},
+  archivePrefix = {arXiv},
+  primaryClass = {physics.ao-ph}
+}
+```
+
+</details>
+
+##### (2026) Scaling Storm-Resolving Atmospheric AI Simulation to the Entire Planet
+* Venue: *arXiv*
+* Model: STRATA
+<details><summary>bibtex</summary>
+
+```bibtex
+@misc{hu2026strata,
+  author = {Zeyuan Hu and Akshay Subramaniam and Noel Keen and Tao Ge and Jaideep Pathak and Mohammad Shoaib Abbas and Suman Ravuri and Karthik Kashinath and Naser Mahfouz and Peter Caldwell and Mike Pritchard and Noah Brenowitz},
+  title = {Scaling Storm-Resolving Atmospheric AI Simulation to the Entire Planet},
+  year = {2026},
+  eprint = {2606.31248},
   archivePrefix = {arXiv},
   primaryClass = {physics.ao-ph}
 }
@@ -743,6 +763,33 @@ Awesome Precipitation Nowcasting (Redux)
 * Paper: https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Requena-Mesa_EarthNet2021_A_Large-Scale_Dataset_and_Challenge_for_Earth_Surface_Forecasting_CVPRW_2021_paper.html
 * Doc: https://www.earthnet.tech/
 * GitHub: https://github.com/earthnet2021/earthnet-model-intercomparison-suite -->
+
+### NOAA <img src="https://www.google.com/s2/favicons?domain=noaa.gov&sz=64" height="40" align="center" alt="NOAA logo">
+---
+
+##### (2016) Multi-Radar Multi-Sensor (MRMS) Quantitative Precipitation Estimation: Initial Operating Capabilities
+* Venue: *Bulletin of the American Meteorological Society*
+* Dataset: MRMS
+* Doc: https://www.nssl.noaa.gov/projects/mrms/
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{zhang2016mrms,
+  author = {Zhang, Jian and Howard, Kenneth and Langston, Carrie and Kaney, Brian and Qi, Youcun and Tang, Lin and Grams, Heather and Wang, Yadong and Cocks, Stephen and Martinaitis, Steven and Arthur, Ami and Cooper, Karen and Brogden, Jeff and Kitzmiller, David},
+  title = {Multi-Radar Multi-Sensor (MRMS) Quantitative Precipitation Estimation: Initial Operating Capabilities},
+  journal = {Bulletin of the American Meteorological Society},
+  volume = {97},
+  number = {4},
+  pages = {621--638},
+  year = {2016},
+  doi = {10.1175/BAMS-D-14-00174.1}
+}
+```
+
+</details>
+
+### Others
+---
 
 ##### (2021) RainBench: Towards Global Precipitation Forecasting from Satellite Imagery
 * Venue: *AAAI*
