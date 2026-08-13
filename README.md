@@ -39,8 +39,7 @@
 |          NowcastNet |          Tsinghua / CMA          |  Research   |                                                   Open ([Code Ocean](https://doi.org/10.24433/CO.0832447.v1))                                                    |           CONUS + China            |     1x1 km     |    10-min.    |                          |
 
 
-:page_facing_up: Papers
-==
+## :page_facing_up: Papers
 
 ## (~1950-1999) Early days
 
