@@ -27,7 +27,7 @@
 | MetNet-III |              Google              | Opperational | Paywalled ([API](https://mapsplatform.google.com/resources/blog/hyperlocal-weather-just-got-smarter-google-maps-platforms-weather-api-now-generally-available/)) |             CONUS             | 1x1 km  | 2-min.  | \*Values from 2023 paper |
 |       KNMI | Royal Netherlands Met. Institute | Opperational |                                            Open ([Archive](https://dataplatform.knmi.nl/dataset/radar-forecast-2-0))                                             | 48.90-55.97° N, 0.00-10.86° E | 1x1 km  | 5-min.  |                          |
 | Stormscope |              NVIDIA              | Opperational | Open ([API](https://nvidia.github.io/earth2studio/modules/generated/models/px/earth2studio.models.px.StormScopeMRMS.html#earth2studio.models.px.StormScopeMRMS)) |             CONUS             | ~3x3 km | 10-min. | No archive.              |
-{: .table .table-bordered .table-striped}
+<!-- {: .table .table-bordered .table-striped} -->
 
 :page_facing_up: Papers
 ==
