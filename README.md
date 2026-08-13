@@ -21,6 +21,172 @@ Awesome Precipitation Nowcasting (Redux)
 :page_facing_up: Papers
 ==
 
+## Early era (pre-2000)
+
+### <img src="assets/logos/metoffice.png" height="20" align="middle" alt="">
+---
+
+##### (1989) Nowcasting of Precipitation Systems
+* Venue: *Reviews of Geophysics*
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{browning1989nowcasting,
+  author = {Browning, K. A. and Collier, C. G.},
+  title = {Nowcasting of Precipitation Systems},
+  journal = {Reviews of Geophysics},
+  volume = {27},
+  number = {3},
+  pages = {345--370},
+  year = {1989},
+  doi = {10.1029/RG027i003p00345}
+}
+```
+
+</details>
+
+##### (1998) Nimrod: A System for Generating Automated Very Short Range Forecasts
+* Venue: *Meteorological Applications*
+* Model: Nimrod
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{golding1998nimrod,
+  author = {Golding, B. W.},
+  title = {{Nimrod}: {A} System for Generating Automated Very Short Range Forecasts},
+  journal = {Meteorological Applications},
+  volume = {5},
+  number = {1},
+  pages = {1--16},
+  year = {1998},
+  doi = {10.1017/S1350482798000577}
+}
+```
+
+</details>
+
+##### (2000) GANDOLF: A System for Generating Automated Nowcasts of Convective Precipitation
+* Venue: *Meteorological Applications*
+* Model: GANDOLF
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{pierce2000gandolf,
+  author = {Pierce, C. E. and Hardaker, P. J. and Collier, C. G. and Haggett, C. M.},
+  title = {{GANDOLF}: {A} System for Generating Automated Nowcasts of Convective Precipitation},
+  journal = {Meteorological Applications},
+  volume = {7},
+  number = {4},
+  pages = {341--360},
+  year = {2000},
+  doi = {10.1017/S135048270000164X}
+}
+```
+
+</details>
+
+### <img src="assets/logos/ncar.png" height="20" align="middle" alt="">
+---
+
+##### (1993) TITAN: Thunderstorm Identification, Tracking, Analysis, and Nowcasting—A Radar-based Methodology
+* Venue: *Journal of Atmospheric and Oceanic Technology*
+* Model: TITAN
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{dixon1993titan,
+  author = {Dixon, Michael and Wiener, Gerry},
+  title = {{TITAN}: Thunderstorm Identification, Tracking, Analysis, and Nowcasting---{A} Radar-based Methodology},
+  journal = {Journal of Atmospheric and Oceanic Technology},
+  volume = {10},
+  number = {6},
+  pages = {785--797},
+  year = {1993},
+  doi = {10.1175/1520-0426(1993)010<0785:TTITAA>2.0.CO;2}
+}
+```
+
+</details>
+
+### Others
+---
+
+##### (1970) Severe Thunderstorm Radar Echo Motion and Related Weather Events Hazardous to Aviation Operations
+* Venue: *ESSA Technical Memorandum*
+<details><summary>bibtex</summary>
+
+```bibtex
+@techreport{barclay1970severe,
+  author = {Barclay, Peter A. and Wilk, Kenneth E.},
+  title = {Severe Thunderstorm Radar Echo Motion and Related Weather Events Hazardous to Aviation Operations},
+  institution = {National Severe Storms Laboratory},
+  type = {ESSA Technical Memorandum},
+  number = {ERLTM-NSSL 46},
+  address = {Norman, OK},
+  year = {1970},
+  note = {63 pp. Available from National Information Service, Operations Division, Springfield, VA 22161}
+}
+```
+
+</details>
+
+##### (1976) Convective Growth and Movement as Seen from GOES-1
+* Venue: *Monthly Weather Review*
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{lushine1976convective,
+  author = {Lushine, James B.},
+  title = {Convective Growth and Movement as Seen from {GOES-1}},
+  journal = {Monthly Weather Review},
+  volume = {104},
+  number = {11},
+  pages = {1449--1450},
+  year = {1976},
+  doi = {10.1175/1520-0493(1976)104<1449:CGAMAS>2.0.CO;2}
+}
+```
+
+</details>
+
+##### (1976) Some Uses of High-Resolution GOES Imagery in the Mesoscale Forecasting of Convection and Its Behavior
+* Venue: *Monthly Weather Review*
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{purdom1976some,
+  author = {Purdom, James F. W.},
+  title = {Some Uses of High-Resolution {GOES} Imagery in the Mesoscale Forecasting of Convection and Its Behavior},
+  journal = {Monthly Weather Review},
+  volume = {104},
+  number = {12},
+  pages = {1474--1483},
+  year = {1976},
+  doi = {10.1175/1520-0493(1976)104<1474:SUOHRG>2.0.CO;2}
+}
+```
+
+</details>
+
+##### (1982) On the Forecasting of Frontal Rain Using a Weather Radar Network
+* Venue: *Monthly Weather Review*
+<details><summary>bibtex</summary>
+
+```bibtex
+@article{browning1982forecasting,
+  author = {Browning, K. A. and Collier, C. G. and Larke, P. R. and Menmuir, P. and Monk, G. A. and Owens, R. G.},
+  title = {On the Forecasting of Frontal Rain Using a Weather Radar Network},
+  journal = {Monthly Weather Review},
+  volume = {110},
+  number = {6},
+  pages = {534--552},
+  year = {1982},
+  doi = {10.1175/1520-0493(1982)110<0534:OTFOFR>2.0.CO;2}
+}
+```
+
+</details>
+
 ## Modern era (~2000-2015)
 
 ##### (2003) Distributed Quantitative Precipitation Forecasting Using Information from Radar and Numerical Weather Prediction Models
