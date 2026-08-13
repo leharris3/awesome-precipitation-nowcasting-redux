@@ -1,5 +1,5 @@
-Awesome Precipitation Nowcasting (Redux)
-==
+# Awesome Precipitation Nowcasting (Redux)
+***
 
 👋 Hello! Please enjoy this collection of papers, datasets, and other resources related to the (longstanding, but particuarly relevant) task of *precipitation nowcasting*—which we define here as "predicting future precipitation rates or observations (e.g., radar reflectivity) with **0-6 hour** lead times and **sub-hourly temporal resolution** (excluding CAM emulators etc)." 
 
@@ -10,13 +10,24 @@ Awesome Precipitation Nowcasting (Redux)
 * Image credit: NASA Goddard Space Flight Center/[GPM IMERG](https://gpm.nasa.gov/data/imerg).
 <!-- * Org logos are the official marks of their respective owners, taken from each organization's own site, and are used for identification only. -->
 
-### TOC
+## TOC
 * [:page_facing_up: Papers](#page_facing_up-papers)
 * [:card_file_box: Datasets](#card_file_box-datasets)
 * [:calendar: Workshops](#calendar-workshops)
 * [:package: Libraries](#package-libraries)
 <!-- * [:link: Others](#link-others) -->
 <!-- *If I missed any of your work, or if something here needs an update, please email me or just open a pull request. Thank you!* -->
+
+## Models
+***
+|      Model |               Org.               |    Status    |                                                                           Availablity                                                                            |            Domain             | S-Res   | T-Res   | Notes                    |
+|-----------:|:--------------------------------:|:------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------:|---------|---------|--------------------------|
+|   MetNet-I |              Google              | Depreciated  |                                                                               N/A                                                                                |             CONUS             | 1x1 km  | 2-min.  |                          |
+|  MetNet-II |              Google              | Depreciated  |                                                                               N/A                                                                                |             CONUS             | 1x1 km  | 2-min.  |                          |
+| MetNet-III |              Google              | Opperational | Paywalled ([API](https://mapsplatform.google.com/resources/blog/hyperlocal-weather-just-got-smarter-google-maps-platforms-weather-api-now-generally-available/)) |             CONUS             | 1x1 km  | 2-min.  | \*Values from 2023 paper |
+|       KNMI | Royal Netherlands Met. Institute | Opperational |                                            Open ([Archive](https://dataplatform.knmi.nl/dataset/radar-forecast-2-0))                                             | 48.90-55.97° N, 0.00-10.86° E | 1x1 km  | 5-min.  |                          |
+| Stormscope |              NVIDIA              | Opperational | Open ([API](https://nvidia.github.io/earth2studio/modules/generated/models/px/earth2studio.models.px.StormScopeMRMS.html#earth2studio.models.px.StormScopeMRMS)) |             CONUS             | ~3x3 km | 10-min. | No archive.              |
+{: .table .table-bordered .table-striped}
 
 :page_facing_up: Papers
 ==
@@ -276,6 +287,7 @@ Awesome Precipitation Nowcasting (Redux)
 * Venue: *arXiv*
 * Model: MetNet-2
 * Journal version: Deep learning for twelve hour precipitation forecasts (*Nature Communications*, 2022)
+* GitHub: https://github.com/openclimatefix/metnet
 * Blog: https://ai.googleblog.com/2021/11/metnet-2-deep-learning-for-12-hour.html
 <details><summary>bibtex</summary>
 
@@ -328,6 +340,7 @@ Awesome Precipitation Nowcasting (Redux)
 ##### (2026) Learning Accurate Storm-Scale Evolution from Observations
 * Venue: *arXiv*
 * Model: Stormscope
+* Huggingface: https://huggingface.co/nvidia/stormscope-goes-mrms
 <details><summary>bibtex</summary>
 
 ```bibtex
