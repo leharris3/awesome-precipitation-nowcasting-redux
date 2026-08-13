@@ -21,7 +21,7 @@ Awesome Precipitation Nowcasting (Redux)
 :page_facing_up: Papers
 ==
 
-## Early era (pre-2000)
+## (~1950-1999) Early days
 
 ### <img src="assets/logos/metoffice.png" height="20" align="middle" alt="">
 ---
